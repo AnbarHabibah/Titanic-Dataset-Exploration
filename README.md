@@ -4,20 +4,34 @@ Exploratory Data Analysis (EDA) and machine learning modeling on the Titanic dat
 ### **Titanic Data Analysis**
 This project involves an in-depth exploration of the Titanic passenger dataset to uncover key survival patterns and build machine learning models for classification. The dataset is curated from [Frank Harrell’s Hmisc Titanic Dataset](https://hbiostat.org/data/repo/titanic.html) and focuses on variables like passenger `name`, `sex`, `age`, and survival status.
 
-Key steps include:
- - Data cleaning and preprocessing
- - Feature engineering (e.g., title extraction, age grouping)
- - Exploratory Data Analysis (EDA) using visualization
- - Model building using Logistic Regression and Support Vector Machine (SVM)
- - Model evaluation using accuracy, precision, recall, and F1-Score
-
 ---
 
 ### 🔍 Dataset Overview
 Total Records: 500 rows
-Key Columns: `name`, s`ex`, `age`, `survived`
+Key Columns: `name`, `sex`, `age`, `survived`
 Missing Values: 9.82% in `age`
 Feature Engineering: Added `title` and `age_group` columns
+
+---
+
+### **💡 Project Overview**
+The notebook walks through:
+ - Loading and cleaning the Titanic dataset
+ - Handling missing values and duplicate entries
+ - Feature engineering (e.g., title extraction, age grouping)
+ - Exploratory Data Analysis (EDA)
+ - Training and comparing multiple ML models
+
+---
+### **📦 Machine Learning Models Used**
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- XGBoost
+- K-Nearest Neighbors (KNN)
+- Support Vector Machine (SVM)
+
+---
 
 #### **🔎 Insights:**
 1. Women had higher survival rates due to "Women and Children First" policies.
@@ -37,22 +51,31 @@ Support Vector Machine (SVM) demonstrated the best overall performance in classi
 - High accuracy, precision, recall, and F1-score
 - Effective at handling complex boundaries in feature space
 - Performs well on smaller, well-engineered datasets
+  
+---
 
-## **💡 Recommendations for Future Development**
-1. Add features like `fare`, `embarked`, or `pclass` for better predictions.
-2. Visualize decision boundaries of SVM using 2D projection.
-3. Create a web-based interactive survival predictor using Streamlit or Flask.
+### **🛠️ Tools & Libraries**
+- Python 3.x
+- Pandas & NumPy
+- Scikit-learn
+- XGBoost
+- Seaborn & Matplotlib
+- Jupyter Notebook
 
 ---
 
-## **Version Libraries**
-- pandas v1.5.3
-- numpy v1.22.4
-- seaborn v0.12.2
-- matplotlib v3.7.1
-- scikit-learn v1.2.2
-- plotly v5.14.1
-- missingno v0.5.2
+### **📌 What I Learned**
+1. How to prepare and clean real-world datasets.
+2. The strengths and differences between various ML algorithms.
+3. How to apply cross-validation for more reliable model evaluation.
+4. Building a full machine learning pipeline from data to insights.
+   
+---
+
+### **🚀 Next Steps**
+- Add feature engineering to enrich input data
+- Improve model interpretability with visual tools like SHAP
+- Deploy the best model using a web interface (e.g., Streamlit or Flask)
 
 ---
 
@@ -63,4 +86,4 @@ If you have any suggestions or feedback, feel free to reach out:
 
 #Python #BeginnerProject #PythonProgramming #LearningPython #DataScienceBeginner #DataScience
 #DataScience #Titanic #MachineLearning #EDA #SVM
-#LogisticRegression #DataExploration
+#LogisticRegression #DataExploration #XGBoost #RandomForest  #MLModels
