@@ -33,7 +33,7 @@ The notebook walks through:
 
 ---
 
-#### **🔎 Insights:**
+### **🔎 Insights:**
 1. Women had higher survival rates due to "Women and Children First" policies.
 2. Children under 10, especially toddlers, had the highest survival chances.
 3. Adult males (title: "Mr") had the lowest survival rate.
