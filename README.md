@@ -2,7 +2,7 @@
 Exploratory Data Analysis (EDA) and machine learning modeling on the Titanic dataset to uncover survival patterns based on demographics and social status.
 
 ### **Titanic Data Analysis**
-This project involves an in-depth exploration of the Titanic passenger dataset to uncover key survival patterns and build machine learning models for classification. The dataset is curated from [Frank Harrell’s Hmisc Titanic Dataset](https://hbiostat.org/data/repo/titanic.html) and focuses on variables like passenger name, sex, age, and survival status.
+This project involves an in-depth exploration of the Titanic passenger dataset to uncover key survival patterns and build machine learning models for classification. The dataset is curated from [Frank Harrell’s Hmisc Titanic Dataset](https://hbiostat.org/data/repo/titanic.html) and focuses on variables like passenger `name`, `sex`, `age`, and survival status.
 
 Key steps include:
  - Data cleaning and preprocessing
@@ -30,7 +30,9 @@ Feature Engineering: Added `title` and `age_group` columns
 
 ### **📊 Modeling Summary**
 ✅ Best Performing Model
+
 Support Vector Machine (SVM) demonstrated the best overall performance in classifying survival outcomes based on demographic and title features.
+
 🧠 Model Selection Rationale
 - High accuracy, precision, recall, and F1-score
 - Effective at handling complex boundaries in feature space
