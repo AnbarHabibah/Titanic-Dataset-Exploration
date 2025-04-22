@@ -13,8 +13,11 @@ The dataset has been uploaded to this repository (see [titanic.xls](titanic.xlsx
 
 ### **🔍 Dataset Overview**
 Total Records: 500 rows
+
 Key Columns: `name`, `sex`, `age`, `survived`
+
 Missing Values: 9.82% in `age`
+
 Feature Engineering: Added `title` and `age_group` columns
 
 ---
@@ -51,8 +54,6 @@ The notebook walks through:
 ✅ Best Performing Model
 
 Logistic Regression was identified as the best-performing model due to its consistent performance across accuracy, precision, recall, and F1-score. While all models performed similarly, Logistic Regression provides the added advantage of interpretability and ease of explanation, making it the ideal choice for this classification task.
-
----
 
 🧠 Model Selection Rationale
 - High accuracy, precision, recall, and F1-score
