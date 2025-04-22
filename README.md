@@ -95,6 +95,4 @@ If you have any suggestions or feedback, feel free to reach out:
 
 ---
 
-#Python #BeginnerProject #PythonProgramming #LearningPython #DataScienceBeginner #DataScience
-#DataScience #Titanic #MachineLearning #EDA #SVM
-#LogisticRegression #DataExploration #XGBoost #RandomForest #MLModels
+#Python #BeginnerProject #PythonProgramming #LearningPython #DataScienceBeginner #DataScience #Titanic #MachineLearning #EDA #SVM #LogisticRegression #DataExploration #XGBoost #RandomForest #MLModels
