@@ -2,11 +2,16 @@
 This project aims to predict the survival of Titanic passengers using machine learning algorithms. The goal is to explore key survival patterns based on demographics, social status, and other features from the Titanic dataset. It includes both Exploratory Data Analysis (EDA) and machine learning modeling for classification tasks.
 
 ### **Titanic Data Analysis**
-This project involves an in‑depth exploration of the Titanic passenger dataset to uncover key survival patterns and build machine learning models for classification. The dataset is curated from [Frank Harrell’s Hmisc Titanic Dataset](https://hbiostat.org/data/repo/titanic.html) and has been uploaded to this repository (see ...) and focuses on variables like passenger `name`, `sex`, `age`, and `survived` (survival status).
+This project involves an in‑depth exploration of the Titanic passenger dataset to uncover key survival patterns and build machine learning models for classification. 
 
 ---
 
-### 🔍 Dataset Overview
+### **📂 Dataset**
+The dataset has been uploaded to this repository (see [titanic.xls](titanic.xlsx)).
+
+---
+
+### **🔍 Dataset Overview**
 Total Records: 500 rows
 Key Columns: `name`, `sex`, `age`, `survived`
 Missing Values: 9.82% in `age`
@@ -38,14 +43,14 @@ The notebook walks through:
 2. Children under 10, especially toddlers, had the highest survival chances.
 3. Adult males (title: "Mr") had the lowest survival rate.
 4. Social titles (e.g., "Lady", "Countess") correlate strongly with survival likelihood.
-5. Support Vector Machine (SVM) performed best across evaluation metrics.
+5. Logistic Regression showed competitive performance across multiple metrics, providing a solid balance of interpretability and accuracy.
 
 ---
 
 ### **📊 Modeling Summary**
 ✅ Best Performing Model
 
-Support Vector Machine (SVM) demonstrated the best overall performance in classifying survival outcomes based on demographic and title features.
+Logistic Regression was identified as the best-performing model due to its consistent performance across accuracy, precision, recall, and F1-score. While all models performed similarly, Logistic Regression provides the added advantage of interpretability and ease of explanation, making it the ideal choice for this classification task.
 
 🧠 Model Selection Rationale
 - High accuracy, precision, recall, and F1-score
@@ -55,12 +60,11 @@ Support Vector Machine (SVM) demonstrated the best overall performance in classi
 ---
 
 ### **🛠️ Tools & Libraries**
-- Python 3.x
+- Python
 - Pandas & NumPy
 - Scikit-learn
 - XGBoost
 - Seaborn & Matplotlib
-- Jupyter Notebook
 
 ---
 
@@ -73,17 +77,20 @@ Support Vector Machine (SVM) demonstrated the best overall performance in classi
 ---
 
 ### **🚀 Next Steps**
-- Add feature engineering to enrich input data
-- Improve model interpretability with visual tools like SHAP
+- Continue to explore additional features that could improve model performance.
+- Improve model interpretability with visual tools
 - Deploy the best model using a web interface (e.g., Streamlit or Flask)
 
 ---
 
+### **📧 Contact & Collaboration**
 If you have any suggestions or feedback, feel free to reach out:
 
 📧 anbarhabibah2@gmail.com  
 🔗 [LinkedIn – Anbar Habibah](https://www.linkedin.com/in/anbarhabibah)
 
+---
+
 #Python #BeginnerProject #PythonProgramming #LearningPython #DataScienceBeginner #DataScience
 #DataScience #Titanic #MachineLearning #EDA #SVM
-#LogisticRegression #DataExploration #XGBoost #RandomForest  #MLModels
+#LogisticRegression #DataExploration #XGBoost #RandomForest #MLModels
