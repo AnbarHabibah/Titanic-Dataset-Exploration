@@ -52,10 +52,14 @@ The notebook walks through:
 
 Logistic Regression was identified as the best-performing model due to its consistent performance across accuracy, precision, recall, and F1-score. While all models performed similarly, Logistic Regression provides the added advantage of interpretability and ease of explanation, making it the ideal choice for this classification task.
 
+---
+
 🧠 Model Selection Rationale
 - High accuracy, precision, recall, and F1-score
 - Effective at handling complex boundaries in feature space
-- Performs well on smaller, well-engineered datasets
+- Performs well on smaller, well-engineered datasets.
+- Fast to train and doesn’t require intensive parameter tuning.
+- Still capable of identifying important features such as `sex`, `title`, and `age_group`.
   
 ---
 
