@@ -1,8 +1,8 @@
-# **Titanic-Dataset-Exploration**
-Exploratory Data Analysis (EDA) and machine learning modeling on the Titanic dataset to uncover survival patterns based on demographics and social status.
+# **Titanic-Survival-Prediction**
+This project aims to predict the survival of Titanic passengers using machine learning algorithms. The goal is to explore key survival patterns based on demographics, social status, and other features from the Titanic dataset. It includes both Exploratory Data Analysis (EDA) and machine learning modeling for classification tasks.
 
 ### **Titanic Data Analysis**
-This project involves an in-depth exploration of the Titanic passenger dataset to uncover key survival patterns and build machine learning models for classification. The dataset is curated from [Frank Harrell’s Hmisc Titanic Dataset](https://hbiostat.org/data/repo/titanic.html) and focuses on variables like passenger `name`, `sex`, `age`, and survival status.
+This project involves an in‑depth exploration of the Titanic passenger dataset to uncover key survival patterns and build machine learning models for classification. The dataset is curated from [Frank Harrell’s Hmisc Titanic Dataset](https://hbiostat.org/data/repo/titanic.html) and has been uploaded to this repository (see ...) and focuses on variables like passenger `name`, `sex`, `age`, and `survived` (survival status).
 
 ---
 
