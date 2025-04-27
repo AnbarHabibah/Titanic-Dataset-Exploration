@@ -1,4 +1,4 @@
-# Titanic-Survival-Prediction**
+# Titanic-Survival-Prediction
 This project focuses on predicting the survival of Titanic passengers using machine learning techniques. It explores key survival patterns based on demographic attributes and social status through comprehensive Exploratory Data Analysis (EDA) and model development.
 
 ### **Titanic Data Analysis**
